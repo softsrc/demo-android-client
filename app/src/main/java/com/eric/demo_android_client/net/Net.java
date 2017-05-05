@@ -22,5 +22,6 @@ public class Net {
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .baseUrl(HttpContext.BASE_URL)
                 .build();
+
     }
 }
